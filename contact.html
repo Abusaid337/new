@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Байланыш</title>
+    <style>
+        /* Жалпы стилдер */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-right: 15px;
+            vertical-align: middle;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        /* Навигация стили */
+        nav {
+            background-color: #3498db;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            color: #1abc9c;
+        }
+
+        /* Байланыш секциясы */
+        section {
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        section ul li {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        /* Карта */
+        .map-container {
+            margin-top: 20px;
+            position: relative;
+            height: 400px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Контактты терезе */
+        .contact-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .contact-links a {
+            text-decoration: none;
+            font-size: 1.5em;
+            color: #3498db;
+        }
+
+        .contact-links a:hover {
+            color: #1abc9c;
+        }
+
+        footer {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Адаптивдүү дизайн */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav a {
+                font-size: 1em;
+            }
+
+            section h2 {
+                font-size: 1.8em;
+            }
+
+            section p, section ul li {
+                font-size: 1em;
+            }
+
+            .contact-links a {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Факультеттин логотиби">
+        <h1>Математика жана Компьютердик Технологиялар Факультети</h1>
+    </header>
+
+    <section>
+        <h2>Биз менен байланыш</h2>
+        <p>ОшМПУнун дареги:</p>
+        <ul>
+            <li><strong>Кыргыз Республикасы</strong></li>
+            <li><strong>723500, Ош областы, Ош шаары</strong></li>
+            <li><strong>Исанова К.</strong></li>
+            <li><strong>Телефондор:</strong> 996772621772</li>
+        </ul>
+
+        <!-- Ватсап жана Инстаграм шилтемелери -->
+        <div class="contact-links">
+            <a href="https://wa.me/996772621772" target="_blank" title="WhatsApp чаты">
+                <img src="whatsapp-icon.png" alt="WhatsApp" width="40" height="40">
+            </a>
+            <a href="https://www.instagram.com/infortechnology_" target="_blank" title="Instagram аккаунту">
+                <img src="instagram-icon.png" alt="Instagram" width="40" height="40">
+            </a>
+        </div>
+
+        <!-- Карта -->
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.112100099998!2d73.7925724!3d40.5180706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38abf2250acb8ffb%3A0x701b7d6b27090ef6!2z0YPQvtC10YjQvdGB0LrQsNGG0LzQsA!5e0!3m2!1sru!2skg!4v1634312584967!5m2!1sru!2skg" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Математика жана Компьютердик Технологиялар Факультети. Бардык укуктар корголгон.</p>
+    </footer>
+</body>
+</html>
+
+

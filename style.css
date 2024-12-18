@@ -1,0 +1,7 @@
+header img {
+    width: 50px; /* Эмблеманын чоңдугун түзөтүңүз */
+    height: auto;
+    margin-right: 20px; /* Эмблеманын жана жазуунун ортосундагы аралык */
+    border: none; /* Эмблеманын четиндеги чекени жок кылат */
+    background-color: transparent; /* Фонду транспарент кылат */
+}
